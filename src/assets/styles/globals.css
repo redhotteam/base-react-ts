@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "./global/default.css";
+@import "./global/fonts.css";
+@import "./global/theme.css";
+
+@layer base {
+  /* Your base styles go here */
+}

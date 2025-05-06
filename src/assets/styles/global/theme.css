@@ -1,0 +1,11 @@
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --font-ibm-plex-sans: "IBM Plex Sans", sans-serif;
+  --font-mulish: "Mulish", sans-serif;
+
+  --shadow-sidebar-icon: -4px 4px 4px rgba(0, 0, 0, 0.25);
+
+  --color-custom-blue: #2360ec;
+
+  --transition-transform-opacity-color: transform, opacity, color;
+}
