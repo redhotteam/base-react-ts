@@ -1,0 +1,13 @@
+name: "${VITE_APP_NAME}-${STAGE}"
+services:
+  node:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+      target: ${STAGE}
+      args:
+        NODE_ENV: ${STAGE}
+    restart: always
+    env_file: .env.${STAGE}
+    ports:
+      - "${VITE_HOST_PORT}:${VITE_PORT}"

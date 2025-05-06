@@ -1,0 +1,14 @@
+.docker
+.dockerignore
+docker-compose.yml
+.env.example
+node_modules
+npm-debug.log
+.prettierrc
+README.md
+.git
+.github
+.gitignore
+/dist
+coverage
+tmp
