@@ -18,7 +18,6 @@ This project is a modern React application template built with Vite, providing a
 
 - `src/`: Contains the source code, including React components, styles.
 - `public/`: Static assets like images and favicon, also has translations.
-- `tests/`: Unit tests for components and logic using Vitest.
 
 ## Getting Started
 
